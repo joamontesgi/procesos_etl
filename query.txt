@@ -1,0 +1,2 @@
+INSERT INTO resumen (total_ventas, promedio, numero_ordenes) VALUES (%s, %s, %s)
+CREATE TABLE IF NOT EXISTS resumen (id serial PRIMARY KEY, total_ventas numeric, promedio numeric, numero_ordenes integer);

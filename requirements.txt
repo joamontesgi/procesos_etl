@@ -2,5 +2,7 @@ selenium>=4.1.0
 schedule>=1.1.0
 plotly==5.3.1
 python-dotenv>=0.19.1
+psycopg2==2.9.9
+firebase-admin==6.5.0
 
 
